@@ -1,0 +1,442 @@
+
+body{
+  overflow-x: hidden;
+}
+
+.navbar-brand img{
+  width: 50%;
+}
+
+hr{
+  border: 5px solid #55BCFA;
+  width: 50%;
+  margin: 100px auto;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  color:#55BCFA;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  color:#55BCFA;
+  font-size: 50px;
+    text-transform: uppercase;
+
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.btn-info {
+  background: #55BCFA;
+    color:#55BCFA;
+}
+
+.section1{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.section3, .section4{
+    margin-top: 150px;
+}
+
+.sect1Image{
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sect2Image,.sect4Image{
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+.sect1Text, .sect3Text{
+  margin-left: 40px;
+}
+
+.sect2Text{
+  margin-right: 40px;
+}
+
+.introVideo{
+  position: absolute;
+   right: 0;
+  bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+}
+
+.herovideoText{
+  position: absolute;
+  z-index: 100;
+  left: 10%;
+  top: 35%;
+}
+
+.herovideoText p{
+  color: white;
+
+}
+
+.heroVideoContainer{
+  position: relative;
+}
+
+.asetsSection {
+  position: relative;
+  background-image: url("img/Vector.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: 100px;
+
+}
+
+
+.asetsSection h2 {
+  padding-top: 100px;
+}
+
+.carousel{
+  margin-top: 100px;
+}
+
+.promoSection{
+  padding: 25px;
+  margin-top: 15%;
+}
+
+.promo{
+  padding: 0 !important;
+}
+
+.promoImgCont{
+  padding: 0;
+}
+
+.aboutSection{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/aboutSection.png");
+  background-position: center;
+  background-attachment: fixed;
+  height: 650px;
+}
+
+.aboutText{
+  padding: 20px;
+}
+
+.aboutSection > .container{
+  width: 50% !important;
+}
+
+.aboutCont{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+.messageSection{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/contact form.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  height: 650px;
+}
+
+.message{
+  width: 50%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.accountSection{
+  margin-top: 100px;
+}
+
+/*card*/
+
+.cardCONT{
+  margin-top: 100px;
+}
+
+.cardCONT .col-lg-4{
+  margin-top: 25px;
+}
+
+.cardheader{
+  background-color: #DADADA;
+  padding: 15px;
+}
+
+.cardheader p {
+  margin-bottom: 0;
+
+}
+
+
+.cardheader h3 {
+  color: #55BCFA;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cardheader .price{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+
+
+.cardBd{
+  background:#55BCFA;
+  padding-bottom: 15px
+}
+
+.cardBd > ul {
+  list-style: none;
+  padding: 10px 15px;
+    background: #55BCFA;
+
+}
+
+
+.cardBd > ul li {
+  padding: 10px 0 ;
+  color:#ffff;
+
+}
+
+.cardBTN{
+  margin-left:40px;
+}
+
+.cardBd p{
+  padding: 15px;
+  color: white;
+}
+
+.cardBTNlast{
+  margin-left: 15px;
+}
+
+
+/*Vip section*/
+
+
+.vipSect ul li {
+    list-style: none;
+}
+
+.vipSect i {
+  color: #55BCFA;
+  margin-right: 10px;
+}
+
+
+
+/*Footer*/
+
+footer{
+  height: 700px;
+  background-color: #4D4D4D;
+}
+
+.footerCOnt{
+  padding-top: 20%;
+}
+
+.footerCOnt img{
+  width: 60%;
+}
+
+.footerCOnt li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+footer h3{
+    color: #55BCFA;
+}
+
+.footerCOnt ul{
+  padding-left: 0;
+}
+
+
+.footerCOnt ul li a{
+  color:white ;
+  text-decoration: none;
+  transition: 0.5s ease;
+
+}
+
+.footerCOnt ul li a:hover{
+    color: #55BCFA;
+}
+
+.section1 .col-lg-6,
+  .section2 .col-lg-6,
+    .section3 .col-lg-6,
+      .section4 .col-lg-6
+
+{
+  background-color:#55BCFA;
+}
+
+
+@media (max-width: 900px) {
+
+  .herovideoText {
+    position: absolute;
+    z-index: 100;
+    left: 2%;
+    top: 35%;
+}
+
+  .herovideoText {
+
+ z-index: 0;
+
+}
+
+  .footerCOnt {
+    padding-top: 5%;
+}
+
+  footer{
+    height: auto;
+    text-align: center;
+  }
+
+  .carousel-item img{
+    width: 20%;
+  }
+
+  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+
+    padding-bottom: 40px;
+}
+
+
+  .asetsSection h2 {
+    padding-top: 30px;
+}
+
+  .carousel {
+    margin-top: 30px;
+}
+
+
+  .asetsSection {
+    height: auto;
+
+}
+
+  .section1 .col-lg-6,
+    .section2 .col-lg-6,
+      .section3 .col-lg-6,
+        .section4 .col-lg-6
+
+  {
+    background-color:#fff;
+  }
+
+
+  .section1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+  h2{
+    font-size: 30px;
+  }
+  .sect1Text, .sect3Text {
+      margin-left: 0 !important;
+  }
+
+  .sect1Image {
+    position: static;
+}
+
+.sect2Image, .sect4Image {
+    position: static;
+    bottom: 20px;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.allBtns{
+  margin-bottom: :30px;
+}
+
+.asetsSection {
+    position: relative;
+    background-image: url(img/Vector.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.aboutSection {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/aboutSection.png);
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.aboutCont {
+    width: auto;
+  padding: 15px;
+}
+
+.messageSection {
+    height: auto;
+}
+
+.promoSection {
+    padding: 25px;
+    margin-top: auto;
+}
+
+.message {
+    width: auto;
+    padding-top: 20px ;
+    padding-left: 0;
+}
+
+.message h2{
+  font-size: 30px;
+}
+
+.message button{
+margin-bottom: 20px;
+}
+
+.accountSection {
+    margin-top: 20px;
+}
+
+
+}
